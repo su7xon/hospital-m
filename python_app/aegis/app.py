@@ -541,3 +541,8 @@ class AegisApp(ctk.CTk):
             except ValueError:
                 pass
         self.destroy()
+# Implementation note 56: no functional change.
+# Implementation note 57: no functional change.
+# Implementation note 58: no functional change.
+# Implementation note 59: no functional change.
+# Implementation note 60: no functional change.
