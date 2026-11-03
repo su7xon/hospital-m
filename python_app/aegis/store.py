@@ -526,3 +526,8 @@ class HospitalStore:
             self.on_change()
         if self.on_toast:
             self.on_toast("Hospital records reset to the initial verified clinical dataset.")
+# Implementation note 61: no functional change.
+# Implementation note 62: no functional change.
+# Implementation note 63: no functional change.
+# Implementation note 64: no functional change.
+# Implementation note 65: no functional change.
