@@ -1,0 +1,982 @@
+{
+  "patients": [
+    {
+      "id": "pat-1",
+      "mrn": "HSP-4109",
+      "name": "Rohan Deshmukh",
+      "age": 58,
+      "gender": "Male",
+      "bloodGroup": "B+",
+      "phone": "+91 98765 43210",
+      "email": "rohan.deshmukh@gmail.com",
+      "address": "42 Orchid Heights, Sector 14, Navi Mumbai",
+      "emergencyContact": {
+        "name": "Sunita Deshmukh",
+        "relation": "Spouse",
+        "phone": "+91 98765 43211"
+      },
+      "admissionDate": "2026-10-18 11:30",
+      "status": "ICU",
+      "ward": "ICU",
+      "bedNumber": "ICU-02",
+      "assignedDoctorId": "doc-1",
+      "assignedDoctorName": "Dr. Rajesh Sharma",
+      "department": "Cardiology",
+      "chiefComplaint": "Acute chest tightness radiating to left shoulder with diaphoresis",
+      "allergies": [
+        "Penicillin",
+        "Sulfa drugs"
+      ],
+      "diagnoses": [
+        "Non-ST Elevation Myocardial Infarction (NSTEMI)",
+        "Grade II Hypertension"
+      ],
+      "notes": [
+        "Coronary angiography scheduled for tomorrow morning.",
+        "Patient kept on telemetry monitor, low-sodium cardiac diet.",
+        "Aspirin 75mg and Atorvastatin 40mg administered."
+      ],
+      "vitals": [
+        {
+          "id": "v-101",
+          "recordedAt": "2026-10-20 07:15",
+          "heartRate": 74,
+          "bloodPressure": "128/82",
+          "spo2": 98,
+          "temperature": 98.4,
+          "respiratoryRate": 16,
+          "recordedBy": "Nurse Sarita K."
+        },
+        {
+          "id": "v-102",
+          "recordedAt": "2026-10-19 20:00",
+          "heartRate": 88,
+          "bloodPressure": "136/88",
+          "spo2": 97,
+          "temperature": 98.6,
+          "respiratoryRate": 18,
+          "recordedBy": "Nurse Rekha V."
+        }
+      ]
+    },
+    {
+      "id": "pat-2",
+      "mrn": "HSP-4112",
+      "name": "Kavita Verma",
+      "age": 34,
+      "gender": "Female",
+      "bloodGroup": "O+",
+      "phone": "+91 98201 88321",
+      "email": "kavita.v@outlook.com",
+      "address": "B-203 Green Glen Layout, Bellandur, Bengaluru",
+      "emergencyContact": {
+        "name": "Deepak Verma",
+        "relation": "Brother",
+        "phone": "+91 98201 88322"
+      },
+      "admissionDate": "2026-10-19 14:00",
+      "status": "Admitted",
+      "ward": "General Ward A",
+      "bedNumber": "GWA-04",
+      "assignedDoctorId": "doc-3",
+      "assignedDoctorName": "Dr. Amitav Banerjee",
+      "department": "Internal Medicine",
+      "chiefComplaint": "Persistent high-grade fever with severe body chills and vomiting for 4 days",
+      "allergies": [
+        "No known drug allergies (NKDA)"
+      ],
+      "diagnoses": [
+        "Acute Pyelonephritis",
+        "Mild Dehydration"
+      ],
+      "notes": [
+        "Started on IV Ceftriaxone 1g BID and maintenance IV fluids.",
+        "Urine culture sensitivity report pending.",
+        "Temperature trending down over last 12 hours."
+      ],
+      "vitals": [
+        {
+          "id": "v-201",
+          "recordedAt": "2026-10-20 06:45",
+          "heartRate": 82,
+          "bloodPressure": "114/74",
+          "spo2": 99,
+          "temperature": 99.1,
+          "respiratoryRate": 15,
+          "recordedBy": "Nurse Sarita K."
+        }
+      ]
+    },
+    {
+      "id": "pat-3",
+      "mrn": "HSP-4088",
+      "name": "Vikramaditya Roy",
+      "age": 67,
+      "gender": "Male",
+      "bloodGroup": "AB+",
+      "phone": "+91 97112 34901",
+      "address": "15 Southern Avenue, Kolkata",
+      "emergencyContact": {
+        "name": "Anirban Roy",
+        "relation": "Son",
+        "phone": "+91 97112 34902"
+      },
+      "admissionDate": "2026-10-17 09:15",
+      "status": "Admitted",
+      "ward": "Private Suite",
+      "bedNumber": "PS-101",
+      "assignedDoctorId": "doc-2",
+      "assignedDoctorName": "Dr. Priya Sundaram",
+      "department": "Neurology",
+      "chiefComplaint": "Right-sided limb weakness and transient slurred speech",
+      "allergies": [
+        "NSAIDs (causes bronchospasm)"
+      ],
+      "diagnoses": [
+        "Transient Ischemic Attack (TIA)",
+        "Type 2 Diabetes Mellitus"
+      ],
+      "notes": [
+        "MRI Brain shows no acute infarct; carotid Doppler completed.",
+        "Physiotherapy session completed at 08:30 AM.",
+        "Discharge planned for tomorrow afternoon if neurologically stable."
+      ],
+      "vitals": [
+        {
+          "id": "v-301",
+          "recordedAt": "2026-10-20 07:30",
+          "heartRate": 70,
+          "bloodPressure": "124/80",
+          "spo2": 98,
+          "temperature": 98.2,
+          "respiratoryRate": 16,
+          "recordedBy": "Nurse Fatima A."
+        }
+      ]
+    },
+    {
+      "id": "pat-4",
+      "mrn": "HSP-4125",
+      "name": "Aarav Patel",
+      "age": 7,
+      "gender": "Male",
+      "bloodGroup": "A+",
+      "phone": "+91 99099 12345",
+      "address": "Flat 402, Shivalik Hills, Ahmedabad",
+      "emergencyContact": {
+        "name": "Bhavna Patel",
+        "relation": "Mother",
+        "phone": "+91 99099 12345"
+      },
+      "admissionDate": "2026-10-20 03:20",
+      "status": "Emergency",
+      "ward": "Emergency Care",
+      "bedNumber": "ER-01",
+      "assignedDoctorId": "doc-6",
+      "assignedDoctorName": "Dr. Meera Nambiar",
+      "department": "Emergency Medicine",
+      "chiefComplaint": "Acute wheezing and severe respiratory distress following viral prodrome",
+      "allergies": [
+        "Peanuts"
+      ],
+      "diagnoses": [
+        "Acute Severe Asthma Exacerbation"
+      ],
+      "notes": [
+        "Nebulized with Salbutamol + Ipratropium x 3 doses.",
+        "IV Hydrocortisone 50mg administered.",
+        "Pediatric consult requested with Dr. Farhan."
+      ],
+      "vitals": [
+        {
+          "id": "v-401",
+          "recordedAt": "2026-10-20 06:15",
+          "heartRate": 110,
+          "bloodPressure": "100/65",
+          "spo2": 96,
+          "temperature": 99.4,
+          "respiratoryRate": 26,
+          "recordedBy": "Nurse Rekha V."
+        }
+      ]
+    },
+    {
+      "id": "pat-5",
+      "mrn": "HSP-4065",
+      "name": "Harpreet Kaur",
+      "age": 49,
+      "gender": "Female",
+      "bloodGroup": "O-",
+      "phone": "+91 98140 22391",
+      "address": "House 88, Sector 21-A, Chandigarh",
+      "emergencyContact": {
+        "name": "Gurpreet Singh",
+        "relation": "Spouse",
+        "phone": "+91 98140 22392"
+      },
+      "admissionDate": "2026-10-15 16:00",
+      "dischargeDate": "2026-10-19 15:30",
+      "status": "Discharged",
+      "ward": "General Ward B",
+      "bedNumber": "GWB-02",
+      "assignedDoctorId": "doc-4",
+      "assignedDoctorName": "Dr. Ananya Sen",
+      "department": "Orthopedics",
+      "chiefComplaint": "Post-op right total knee arthroplasty recovery",
+      "allergies": [
+        "No known allergies"
+      ],
+      "diagnoses": [
+        "Severe Osteoarthritis Right Knee (Post-TKR)"
+      ],
+      "notes": [
+        "Discharge summary handed over with medication schedule.",
+        "Suture removal scheduled for 10 days post-op.",
+        "Full weight bearing with walker mobilized."
+      ],
+      "vitals": [
+        {
+          "id": "v-501",
+          "recordedAt": "2026-10-19 14:00",
+          "heartRate": 72,
+          "bloodPressure": "120/78",
+          "spo2": 99,
+          "temperature": 98.4,
+          "respiratoryRate": 15,
+          "recordedBy": "Nurse Fatima A."
+        }
+      ]
+    },
+    {
+      "id": "pat-6",
+      "mrn": "HSP-4130",
+      "name": "Mohammed Zeeshan",
+      "age": 42,
+      "gender": "Male",
+      "bloodGroup": "B-",
+      "phone": "+91 98840 55190",
+      "address": "12 Anna Salai, Chennai",
+      "emergencyContact": {
+        "name": "Ayesha Zeeshan",
+        "relation": "Spouse",
+        "phone": "+91 98840 55191"
+      },
+      "admissionDate": "2026-10-20 08:30",
+      "status": "Outpatient",
+      "assignedDoctorId": "doc-3",
+      "assignedDoctorName": "Dr. Amitav Banerjee",
+      "department": "Internal Medicine",
+      "chiefComplaint": "Routine diabetes check-up and HbA1c review",
+      "allergies": [
+        "Sulfa"
+      ],
+      "diagnoses": [
+        "Type 2 Diabetes Mellitus",
+        "Dyslipidemia"
+      ],
+      "notes": [
+        "HbA1c 7.4%. Metformin dosage adjusted to 1000mg BID with meals."
+      ],
+      "vitals": [
+        {
+          "id": "v-601",
+          "recordedAt": "2026-10-20 08:45",
+          "heartRate": 76,
+          "bloodPressure": "130/84",
+          "spo2": 98,
+          "temperature": 98.6,
+          "respiratoryRate": 16,
+          "recordedBy": "Nurse Sarita K."
+        }
+      ]
+    }
+  ],
+  "doctors": [
+    {
+      "id": "doc-1",
+      "name": "Dr. Rajesh Sharma",
+      "qualification": "MD, DM (Cardiology), FACC",
+      "specialty": "Interventional Cardiology",
+      "department": "Cardiology",
+      "room": "Cabin 104, 1st Floor",
+      "phone": "+91 98112 40192",
+      "email": "r.sharma@aegishealth.org",
+      "onDuty": true,
+      "activePatients": 8,
+      "scheduleHours": "08:00 - 16:00"
+    },
+    {
+      "id": "doc-2",
+      "name": "Dr. Priya Sundaram",
+      "qualification": "MS (General Surgery), MCh (Neuro)",
+      "specialty": "Neurosurgery & Spine",
+      "department": "Neurology",
+      "room": "Cabin 202, 2nd Floor",
+      "phone": "+91 98234 11094",
+      "email": "p.sundaram@aegishealth.org",
+      "onDuty": true,
+      "activePatients": 5,
+      "scheduleHours": "09:00 - 17:00"
+    },
+    {
+      "id": "doc-3",
+      "name": "Dr. Amitav Banerjee",
+      "qualification": "MD (Internal Medicine), FACP",
+      "specialty": "Internal Medicine & Critical Care",
+      "department": "Internal Medicine",
+      "room": "Cabin 108, 1st Floor",
+      "phone": "+91 97180 55219",
+      "email": "a.banerjee@aegishealth.org",
+      "onDuty": true,
+      "activePatients": 12,
+      "scheduleHours": "07:30 - 15:30"
+    },
+    {
+      "id": "doc-4",
+      "name": "Dr. Ananya Sen",
+      "qualification": "MS (Orthopedics), Joint Replacement Fellow",
+      "specialty": "Orthopedics & Trauma",
+      "department": "Orthopedics",
+      "room": "Cabin 301, 3rd Floor",
+      "phone": "+91 98450 67321",
+      "email": "a.sen@aegishealth.org",
+      "onDuty": false,
+      "activePatients": 4,
+      "scheduleHours": "14:00 - 20:00"
+    },
+    {
+      "id": "doc-5",
+      "name": "Dr. Farhan Siddiqui",
+      "qualification": "MD (Pediatrics), DCH",
+      "specialty": "Pediatrics & Neonatology",
+      "department": "Pediatrics",
+      "room": "Cabin 112, 1st Floor",
+      "phone": "+91 98902 33418",
+      "email": "f.siddiqui@aegishealth.org",
+      "onDuty": true,
+      "activePatients": 6,
+      "scheduleHours": "09:00 - 18:00"
+    },
+    {
+      "id": "doc-6",
+      "name": "Dr. Meera Nambiar",
+      "qualification": "MD (Emergency Medicine), MRCEM",
+      "specialty": "Emergency & Trauma Care",
+      "department": "Emergency Medicine",
+      "room": "ER Trauma Bay 1",
+      "phone": "+91 98101 99201",
+      "email": "m.nambiar@aegishealth.org",
+      "onDuty": true,
+      "activePatients": 7,
+      "scheduleHours": "08:00 - 20:00 (Duty Lead)"
+    }
+  ],
+  "beds": [
+    {
+      "id": "b-1",
+      "code": "ICU-01",
+      "ward": "ICU",
+      "floor": "Level 2, Wing A",
+      "dailyRate": 7500,
+      "status": "Available"
+    },
+    {
+      "id": "b-2",
+      "code": "ICU-02",
+      "ward": "ICU",
+      "floor": "Level 2, Wing A",
+      "dailyRate": 7500,
+      "status": "Occupied",
+      "patientId": "pat-1",
+      "patientName": "Rohan Deshmukh",
+      "patientMrn": "HSP-4109",
+      "admittedSince": "2026-10-18"
+    },
+    {
+      "id": "b-3",
+      "code": "ICU-03",
+      "ward": "ICU",
+      "floor": "Level 2, Wing A",
+      "dailyRate": 7500,
+      "status": "Cleaning"
+    },
+    {
+      "id": "b-4",
+      "code": "ICU-04",
+      "ward": "ICU",
+      "floor": "Level 2, Wing A",
+      "dailyRate": 7500,
+      "status": "Available"
+    },
+    {
+      "id": "b-5",
+      "code": "GWA-01",
+      "ward": "General Ward A",
+      "floor": "Level 3, Wing B",
+      "dailyRate": 1800,
+      "status": "Available"
+    },
+    {
+      "id": "b-6",
+      "code": "GWA-02",
+      "ward": "General Ward A",
+      "floor": "Level 3, Wing B",
+      "dailyRate": 1800,
+      "status": "Available"
+    },
+    {
+      "id": "b-7",
+      "code": "GWA-03",
+      "ward": "General Ward A",
+      "floor": "Level 3, Wing B",
+      "dailyRate": 1800,
+      "status": "Maintenance"
+    },
+    {
+      "id": "b-8",
+      "code": "GWA-04",
+      "ward": "General Ward A",
+      "floor": "Level 3, Wing B",
+      "dailyRate": 1800,
+      "status": "Occupied",
+      "patientId": "pat-2",
+      "patientName": "Kavita Verma",
+      "patientMrn": "HSP-4112",
+      "admittedSince": "2026-10-19"
+    },
+    {
+      "id": "b-9",
+      "code": "GWA-05",
+      "ward": "General Ward A",
+      "floor": "Level 3, Wing B",
+      "dailyRate": 1800,
+      "status": "Available"
+    },
+    {
+      "id": "b-10",
+      "code": "GWB-01",
+      "ward": "General Ward B",
+      "floor": "Level 3, Wing C",
+      "dailyRate": 1800,
+      "status": "Available"
+    },
+    {
+      "id": "b-11",
+      "code": "GWB-02",
+      "ward": "General Ward B",
+      "floor": "Level 3, Wing C",
+      "dailyRate": 1800,
+      "status": "Cleaning"
+    },
+    {
+      "id": "b-12",
+      "code": "GWB-03",
+      "ward": "General Ward B",
+      "floor": "Level 3, Wing C",
+      "dailyRate": 1800,
+      "status": "Available"
+    },
+    {
+      "id": "b-13",
+      "code": "GWB-04",
+      "ward": "General Ward B",
+      "floor": "Level 3, Wing C",
+      "dailyRate": 1800,
+      "status": "Available"
+    },
+    {
+      "id": "b-14",
+      "code": "PS-101",
+      "ward": "Private Suite",
+      "floor": "Level 4, North Wing",
+      "dailyRate": 4500,
+      "status": "Occupied",
+      "patientId": "pat-3",
+      "patientName": "Vikramaditya Roy",
+      "patientMrn": "HSP-4088",
+      "admittedSince": "2026-10-17"
+    },
+    {
+      "id": "b-15",
+      "code": "PS-102",
+      "ward": "Private Suite",
+      "floor": "Level 4, North Wing",
+      "dailyRate": 4500,
+      "status": "Available"
+    },
+    {
+      "id": "b-16",
+      "code": "PS-103",
+      "ward": "Private Suite",
+      "floor": "Level 4, North Wing",
+      "dailyRate": 4500,
+      "status": "Available"
+    },
+    {
+      "id": "b-17",
+      "code": "ER-01",
+      "ward": "Emergency Care",
+      "floor": "Ground Floor, Bay 1",
+      "dailyRate": 3000,
+      "status": "Occupied",
+      "patientId": "pat-4",
+      "patientName": "Aarav Patel",
+      "patientMrn": "HSP-4125",
+      "admittedSince": "2026-10-20"
+    },
+    {
+      "id": "b-18",
+      "code": "ER-02",
+      "ward": "Emergency Care",
+      "floor": "Ground Floor, Bay 1",
+      "dailyRate": 3000,
+      "status": "Available"
+    },
+    {
+      "id": "b-19",
+      "code": "ER-03",
+      "ward": "Emergency Care",
+      "floor": "Ground Floor, Bay 2",
+      "dailyRate": 3000,
+      "status": "Available"
+    },
+    {
+      "id": "b-20",
+      "code": "ER-04",
+      "ward": "Emergency Care",
+      "floor": "Ground Floor, Bay 2",
+      "dailyRate": 3000,
+      "status": "Available"
+    }
+  ],
+  "appointments": [
+    {
+      "id": "apt-1",
+      "appointmentNumber": "APT-901",
+      "patientName": "Sunil Bhatia",
+      "patientPhone": "+91 98210 44556",
+      "doctorId": "doc-1",
+      "doctorName": "Dr. Rajesh Sharma",
+      "department": "Cardiology",
+      "date": "2026-10-20",
+      "timeSlot": "09:30 AM",
+      "status": "Checked-in",
+      "reason": "Post-stenting 6-month checkup, ECG review",
+      "type": "Follow-up"
+    },
+    {
+      "id": "apt-2",
+      "appointmentNumber": "APT-902",
+      "patientName": "Ananya Guha",
+      "patientPhone": "+91 97401 22390",
+      "doctorId": "doc-3",
+      "doctorName": "Dr. Amitav Banerjee",
+      "department": "Internal Medicine",
+      "date": "2026-10-20",
+      "timeSlot": "10:00 AM",
+      "status": "In Consultation",
+      "reason": "Uncontrolled hypertension and fatigue evaluation",
+      "type": "OPD"
+    },
+    {
+      "id": "apt-3",
+      "appointmentNumber": "APT-903",
+      "patientName": "Mohammed Zeeshan",
+      "patientPhone": "+91 98840 55190",
+      "patientMrn": "HSP-4130",
+      "doctorId": "doc-3",
+      "doctorName": "Dr. Amitav Banerjee",
+      "department": "Internal Medicine",
+      "date": "2026-10-20",
+      "timeSlot": "10:45 AM",
+      "status": "Completed",
+      "reason": "Type 2 diabetes quarterly review",
+      "type": "Follow-up"
+    },
+    {
+      "id": "apt-4",
+      "appointmentNumber": "APT-904",
+      "patientName": "Nandini Kapoor",
+      "patientPhone": "+91 98119 77801",
+      "doctorId": "doc-2",
+      "doctorName": "Dr. Priya Sundaram",
+      "department": "Neurology",
+      "date": "2026-10-20",
+      "timeSlot": "11:15 AM",
+      "status": "Scheduled",
+      "reason": "Chronic migraine with visual aura refractory to sumatriptan",
+      "type": "OPD"
+    },
+    {
+      "id": "apt-5",
+      "appointmentNumber": "APT-905",
+      "patientName": "Tanya Mehra",
+      "patientPhone": "+91 99200 33411",
+      "doctorId": "doc-5",
+      "doctorName": "Dr. Farhan Siddiqui",
+      "department": "Pediatrics",
+      "date": "2026-10-20",
+      "timeSlot": "12:00 PM",
+      "status": "Scheduled",
+      "reason": "6-month vaccination booster & growth milestones",
+      "type": "Review"
+    },
+    {
+      "id": "apt-6",
+      "appointmentNumber": "APT-906",
+      "patientName": "Rajinder Pal",
+      "patientPhone": "+91 98150 99882",
+      "doctorId": "doc-4",
+      "doctorName": "Dr. Ananya Sen",
+      "department": "Orthopedics",
+      "date": "2026-10-20",
+      "timeSlot": "03:30 PM",
+      "status": "Scheduled",
+      "reason": "Right lumbar radiculopathy, review lumbar MRI",
+      "type": "OPD"
+    }
+  ],
+  "emergency_cases": [
+    {
+      "id": "er-1",
+      "patientName": "Sanjay Rawat",
+      "age": 51,
+      "gender": "Male",
+      "triageLevel": "P1 - Resuscitation",
+      "chiefComplaint": "Severe road traffic injury, polytrauma, hypotension BP 80/50",
+      "arrivalTime": "08:42 AM",
+      "assignedDoctor": "Dr. Meera Nambiar",
+      "vitalsBrief": "BP: 80/50 | HR: 128 | SpO2: 91%",
+      "status": "In Treatment",
+      "notes": "Primary survey ongoing. 2 large bore IV lines secured, packed RBC cross-matched."
+    },
+    {
+      "id": "er-2",
+      "patientName": "Neelam Joshi",
+      "age": 63,
+      "gender": "Female",
+      "triageLevel": "P2 - Emergency",
+      "chiefComplaint": "Sudden onset facial droop and right arm paresis, symptom onset 45 min ago",
+      "arrivalTime": "09:05 AM",
+      "assignedDoctor": "Dr. Meera Nambiar",
+      "vitalsBrief": "BP: 168/98 | HR: 84 | SpO2: 98%",
+      "status": "Waiting",
+      "notes": "Within thrombolysis window. Emergency non-contrast CT Brain expedited."
+    },
+    {
+      "id": "er-3",
+      "patientName": "Kunal Trivedi",
+      "age": 29,
+      "gender": "Male",
+      "triageLevel": "P3 - Urgent",
+      "chiefComplaint": "Right lower quadrant abdominal pain with rebound tenderness for 12 hours",
+      "arrivalTime": "08:15 AM",
+      "assignedDoctor": "Dr. Amitav Banerjee",
+      "vitalsBrief": "BP: 122/78 | HR: 90 | SpO2: 99%",
+      "status": "In Treatment",
+      "notes": "Suspected acute appendicitis. USG abdomen and surgical consult ordered."
+    }
+  ],
+  "medicines": [
+    {
+      "id": "med-1",
+      "code": "MED-101",
+      "name": "Ceftriaxone 1g Vial",
+      "genericName": "Ceftriaxone Sodium Injection",
+      "category": "Antibiotics",
+      "dosageForm": "Injection",
+      "stock": 240,
+      "unit": "Vials",
+      "minStock": 50,
+      "unitPrice": 85,
+      "batchNumber": "CTX-2026A",
+      "expiryDate": "2027-08-31"
+    },
+    {
+      "id": "med-2",
+      "code": "MED-102",
+      "name": "Atorvastatin 40mg",
+      "genericName": "Atorvastatin Calcium",
+      "category": "Cardiovascular",
+      "dosageForm": "Tablet",
+      "stock": 580,
+      "unit": "Tablets",
+      "minStock": 100,
+      "unitPrice": 18,
+      "batchNumber": "ATV-894",
+      "expiryDate": "2028-02-28"
+    },
+    {
+      "id": "med-3",
+      "code": "MED-103",
+      "name": "Paracetamol 650mg (Dolo)",
+      "genericName": "Acetaminophen / Paracetamol",
+      "category": "Analgesics",
+      "dosageForm": "Tablet",
+      "stock": 1250,
+      "unit": "Tablets",
+      "minStock": 300,
+      "unitPrice": 3.5,
+      "batchNumber": "PCM-650B",
+      "expiryDate": "2027-11-30"
+    },
+    {
+      "id": "med-4",
+      "code": "MED-104",
+      "name": "Salbutamol Respules 2.5mg",
+      "genericName": "Albuterol / Salbutamol Sulphate",
+      "category": "Respiratory",
+      "dosageForm": "IV Infusion",
+      "stock": 18,
+      "unit": "Respules",
+      "minStock": 40,
+      "unitPrice": 12,
+      "batchNumber": "SLB-109",
+      "expiryDate": "2027-04-30"
+    },
+    {
+      "id": "med-5",
+      "code": "MED-105",
+      "name": "Normal Saline (0.9% NaCl) 500ml",
+      "genericName": "Sodium Chloride IV Infusion",
+      "category": "IV Fluids",
+      "dosageForm": "IV Infusion",
+      "stock": 310,
+      "unit": "Bottles",
+      "minStock": 80,
+      "unitPrice": 45,
+      "batchNumber": "NS-500K",
+      "expiryDate": "2028-05-31"
+    },
+    {
+      "id": "med-6",
+      "code": "MED-106",
+      "name": "Adrenaline (Epinephrine) 1:1000 Ampoule",
+      "genericName": "Epinephrine Injection 1mg/ml",
+      "category": "Emergency",
+      "dosageForm": "Injection",
+      "stock": 75,
+      "unit": "Ampoules",
+      "minStock": 30,
+      "unitPrice": 35,
+      "batchNumber": "EPN-331",
+      "expiryDate": "2027-03-31"
+    },
+    {
+      "id": "med-7",
+      "code": "MED-107",
+      "name": "Pantoprazole 40mg IV",
+      "genericName": "Pantoprazole Sodium for Inj",
+      "category": "Analgesics",
+      "dosageForm": "Injection",
+      "stock": 140,
+      "unit": "Vials",
+      "minStock": 40,
+      "unitPrice": 52,
+      "batchNumber": "PNT-40V",
+      "expiryDate": "2027-09-30"
+    }
+  ],
+  "lab_orders": [
+    {
+      "id": "lab-1",
+      "orderNumber": "LAB-2401",
+      "patientName": "Rohan Deshmukh",
+      "patientMrn": "HSP-4109",
+      "testName": "Cardiac Troponin I (High Sensitivity)",
+      "department": "Biochemistry",
+      "orderedBy": "Dr. Rajesh Sharma",
+      "orderedDate": "2026-10-20 06:30",
+      "status": "Completed",
+      "priority": "STAT Urgent",
+      "resultSummary": "Troponin I: 480 pg/mL (Elevated - Consistent with acute myocardial injury)",
+      "completedAt": "2026-10-20 07:10"
+    },
+    {
+      "id": "lab-2",
+      "orderNumber": "LAB-2402",
+      "patientName": "Kavita Verma",
+      "patientMrn": "HSP-4112",
+      "testName": "Complete Blood Count (CBC) + ESR",
+      "department": "Hematology",
+      "orderedBy": "Dr. Amitav Banerjee",
+      "orderedDate": "2026-10-20 07:00",
+      "status": "Completed",
+      "priority": "Routine",
+      "resultSummary": "WBC: 14,200/uL (Leukocytosis with 82% neutrophils); Hb: 12.1 g/dL",
+      "completedAt": "2026-10-20 08:05"
+    },
+    {
+      "id": "lab-3",
+      "orderNumber": "LAB-2403",
+      "patientName": "Sanjay Rawat",
+      "patientMrn": "EMRG-801",
+      "testName": "Emergency Trauma Panel (Cross-Match, ABG, Coagulation PT/INR)",
+      "department": "Hematology",
+      "orderedBy": "Dr. Meera Nambiar",
+      "orderedDate": "2026-10-20 08:45",
+      "status": "In Progress",
+      "priority": "STAT Urgent"
+    },
+    {
+      "id": "lab-4",
+      "orderNumber": "LAB-2404",
+      "patientName": "Vikramaditya Roy",
+      "patientMrn": "HSP-4088",
+      "testName": "Lipid Profile & Fasting Blood Sugar",
+      "department": "Biochemistry",
+      "orderedBy": "Dr. Priya Sundaram",
+      "orderedDate": "2026-10-20 07:45",
+      "status": "Pending",
+      "priority": "Routine"
+    }
+  ],
+  "invoices": [
+    {
+      "id": "inv-1",
+      "invoiceNumber": "INV-2026-081",
+      "patientId": "pat-5",
+      "patientName": "Harpreet Kaur",
+      "patientMrn": "HSP-4065",
+      "patientPhone": "+91 98140 22391",
+      "admissionDate": "2026-10-15",
+      "dischargeDate": "2026-10-19",
+      "items": [
+        {
+          "id": "ii-1",
+          "description": "General Ward B Bed Charges (4 Days @ ₹1,800/day)",
+          "category": "Room / Bed",
+          "quantity": 4,
+          "unitPrice": 1800,
+          "total": 7200
+        },
+        {
+          "id": "ii-2",
+          "description": "Orthopedic Consultant Visits (Dr. Ananya Sen)",
+          "category": "Consultation",
+          "quantity": 4,
+          "unitPrice": 1200,
+          "total": 4800
+        },
+        {
+          "id": "ii-3",
+          "description": "Total Knee Replacement Nursing & Dressing Care",
+          "category": "Nursing",
+          "quantity": 4,
+          "unitPrice": 650,
+          "total": 2600
+        },
+        {
+          "id": "ii-4",
+          "description": "Post-op Physiotherapy Sessions",
+          "category": "Procedure",
+          "quantity": 3,
+          "unitPrice": 800,
+          "total": 2400
+        },
+        {
+          "id": "ii-5",
+          "description": "Hospital Pharmacy Dispensation (Pain management & IV antibiotics)",
+          "category": "Medication",
+          "quantity": 1,
+          "unitPrice": 3850,
+          "total": 3850
+        }
+      ],
+      "subtotal": 20850,
+      "tax": 1042.5,
+      "discount": 500,
+      "grandTotal": 21392.5,
+      "paymentStatus": "Paid",
+      "paymentMethod": "Insurance / TPA",
+      "insuranceProvider": "Star Health & Allied Insurance (Claim #ST-88192)",
+      "issuedAt": "2026-10-19 15:00",
+      "notes": "Discharge cleared. Settled under cashless TPA pre-authorization."
+    },
+    {
+      "id": "inv-2",
+      "invoiceNumber": "INV-2026-082",
+      "patientId": "pat-6",
+      "patientName": "Mohammed Zeeshan",
+      "patientMrn": "HSP-4130",
+      "patientPhone": "+91 98840 55190",
+      "admissionDate": "2026-10-20",
+      "items": [
+        {
+          "id": "ii-6",
+          "description": "OPD Specialist Consultation (Dr. Amitav Banerjee)",
+          "category": "Consultation",
+          "quantity": 1,
+          "unitPrice": 800,
+          "total": 800
+        },
+        {
+          "id": "ii-7",
+          "description": "HbA1c & Fasting Glucose Automated Lab Panel",
+          "category": "Lab Test",
+          "quantity": 1,
+          "unitPrice": 650,
+          "total": 650
+        }
+      ],
+      "subtotal": 1450,
+      "tax": 0,
+      "discount": 0,
+      "grandTotal": 1450,
+      "paymentStatus": "Paid",
+      "paymentMethod": "UPI / Bank Transfer",
+      "issuedAt": "2026-10-20 09:15",
+      "notes": "OPD receipt issued."
+    },
+    {
+      "id": "inv-3",
+      "invoiceNumber": "INV-2026-083",
+      "patientId": "pat-2",
+      "patientName": "Kavita Verma",
+      "patientMrn": "HSP-4112",
+      "patientPhone": "+91 98201 88321",
+      "admissionDate": "2026-10-19",
+      "items": [
+        {
+          "id": "ii-8",
+          "description": "General Ward A Bed Charges (Running, 2 Days @ ₹1,800/day)",
+          "category": "Room / Bed",
+          "quantity": 2,
+          "unitPrice": 1800,
+          "total": 3600
+        },
+        {
+          "id": "ii-9",
+          "description": "Physician Inpatient Rounds (Dr. Amitav Banerjee)",
+          "category": "Consultation",
+          "quantity": 2,
+          "unitPrice": 1000,
+          "total": 2000
+        },
+        {
+          "id": "ii-10",
+          "description": "IV Antibiotic Therapy (Ceftriaxone & IV sets)",
+          "category": "Medication",
+          "quantity": 1,
+          "unitPrice": 1450,
+          "total": 1450
+        },
+        {
+          "id": "ii-11",
+          "description": "CBC + Urine Culture Lab Investigations",
+          "category": "Lab Test",
+          "quantity": 1,
+          "unitPrice": 950,
+          "total": 950
+        }
+      ],
+      "subtotal": 8000,
+      "tax": 400,
+      "discount": 0,
+      "grandTotal": 8400,
+      "paymentStatus": "Pending",
+      "issuedAt": "2026-10-20 08:00",
+      "notes": "Interim running bill generated for inpatient stay."
+    }
+  ]
+}

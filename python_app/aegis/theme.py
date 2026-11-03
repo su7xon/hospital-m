@@ -1,0 +1,59 @@
+"""Aegis Health - visual theme tokens.
+
+The desktop app mirrors the original web dashboard's quiet, clinical
+slate/emerald palette while keeping a native, high-contrast desktop feel.
+"""
+
+# Core surfaces
+BG = "#F1F5F9"
+CARD = "#FFFFFF"
+CARD_ALT = "#F8FAFC"
+CARD_HOVER = "#F1F5F9"
+BORDER = "#E2E8F0"
+BORDER_STRONG = "#CBD5E1"
+
+# Text
+TEXT = "#0F172A"
+TEXT_SECONDARY = "#475569"
+MUTED = "#64748B"
+FAINT = "#94A3B8"
+INVERSE = "#FFFFFF"
+
+# Brand / actions
+PRIMARY = "#0F172A"
+PRIMARY_HOVER = "#1E293B"
+PRIMARY_SOFT = "#E2E8F0"
+
+# Semantic
+EMERALD = "#047857"
+EMERALD_BRIGHT = "#10B981"
+EMERALD_BG = "#ECFDF5"
+EMERALD_BORDER = "#A7F3D0"
+ROSE = "#BE123C"
+ROSE_BRIGHT = "#F43F5E"
+ROSE_BG = "#FFF1F2"
+ROSE_BORDER = "#FECDD3"
+AMBER = "#B45309"
+AMBER_BG = "#FFFBEB"
+AMBER_BORDER = "#FDE68A"
+BLUE = "#1D4ED8"
+BLUE_BG = "#EFF6FF"
+BLUE_BORDER = "#BFDBFE"
+
+# Sidebar
+SIDEBAR_BG = "#0B1220"
+SIDEBAR_PANEL = "#111C30"
+SIDEBAR_ACTIVE = "#1B2A44"
+SIDEBAR_TEXT = "#CBD5E1"
+SIDEBAR_MUTED = "#71829B"
+SIDEBAR_BORDER = "#1E2C44"
+
+# Fonts
+FONT_FAMILY = "Segoe UI"
+MONO_FAMILY = "Consolas"
+
+# Geometry
+SIDEBAR_WIDTH = 232
+HEADER_HEIGHT = 64
+FOOTER_HEIGHT = 32
+CONTENT_PAD = 18

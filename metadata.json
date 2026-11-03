@@ -1,0 +1,6 @@
+{
+  "name": "Aegis Health — Hospital Management System",
+  "description": "Minimal, clean, production-grade clinical hospital management system for patient admissions, ward bed allocation, OPD scheduling, vitals monitoring, pharmacy, and billing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
